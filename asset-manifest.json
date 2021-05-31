@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/Print-Simulator/static/css/main.a2d7b5e4.chunk.css",
+    "main.js": "/Print-Simulator/static/js/main.d19bd357.chunk.js",
+    "main.js.map": "/Print-Simulator/static/js/main.d19bd357.chunk.js.map",
+    "runtime-main.js": "/Print-Simulator/static/js/runtime-main.e3d92d1b.js",
+    "runtime-main.js.map": "/Print-Simulator/static/js/runtime-main.e3d92d1b.js.map",
+    "static/js/2.fd0b3b68.chunk.js": "/Print-Simulator/static/js/2.fd0b3b68.chunk.js",
+    "static/js/2.fd0b3b68.chunk.js.map": "/Print-Simulator/static/js/2.fd0b3b68.chunk.js.map",
+    "static/js/3.5f057f18.chunk.js": "/Print-Simulator/static/js/3.5f057f18.chunk.js",
+    "static/js/3.5f057f18.chunk.js.map": "/Print-Simulator/static/js/3.5f057f18.chunk.js.map",
+    "index.html": "/Print-Simulator/index.html",
+    "static/css/main.a2d7b5e4.chunk.css.map": "/Print-Simulator/static/css/main.a2d7b5e4.chunk.css.map",
+    "static/js/2.fd0b3b68.chunk.js.LICENSE.txt": "/Print-Simulator/static/js/2.fd0b3b68.chunk.js.LICENSE.txt",
+    "static/media/keyboard.f8818024.svg": "/Print-Simulator/static/media/keyboard.f8818024.svg",
+    "static/media/success.bc7c9040.svg": "/Print-Simulator/static/media/success.bc7c9040.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.e3d92d1b.js",
+    "static/js/2.fd0b3b68.chunk.js",
+    "static/css/main.a2d7b5e4.chunk.css",
+    "static/js/main.d19bd357.chunk.js"
+  ]
+}
