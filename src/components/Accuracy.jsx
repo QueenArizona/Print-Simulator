@@ -15,7 +15,7 @@ function Accuracy(props) {
   return (
     <div className="card-body">
       <h5 className="card-title">{accuracy} Точность</h5>
-      <p className="card-text fs-4 fw-bold text-info">{formatAccuracy()}</p>
+      <p className="card-text fs-4 fw-bold text-primary">{formatAccuracy()}</p>
     </div>
   );
 }

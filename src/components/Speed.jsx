@@ -13,7 +13,9 @@ function Speed(props) {
   return (
     <div className="card-body">
       <h5 className="card-title">{speed} Скорость</h5>
-      <p className="card-text fs-4 fw-bold text-info">{formatSpeed()} зн/м</p>
+      <p className="card-text fs-4 fw-bold text-primary">
+        {formatSpeed()} зн/м
+      </p>
     </div>
   );
 }

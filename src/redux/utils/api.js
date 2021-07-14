@@ -8,7 +8,7 @@ export const textFetch = () => async (dispatch) => {
   dispatch(sampleTextRequest());
   try {
     const response = await fetch(
-      "https://fish-text.ru/get?format=json&type=sentence&number=5"
+      "https://fish-text.ru/get?format=json&type=sentence&number=4"
     );
     if (!response.ok) {
       throw new Error(response.statusText);

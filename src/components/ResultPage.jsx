@@ -26,7 +26,7 @@ function ResultPage(props) {
               className="card-img-top"
               src={success}
               alt="success"
-              style={{ width: "12rem" }}
+              style={{ width: "5rem" }}
             />
             <h5 className="card-title">Поздравляем!</h5>
             <p className="card-text">

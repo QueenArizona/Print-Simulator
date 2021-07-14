@@ -18,9 +18,9 @@ function IntroPage(props) {
             className="card-img-top"
             src={keyboard}
             alt="keyboard"
-            style={{ width: "12rem" }}
+            style={{ width: "5rem" }}
           />
-          <h4 className="card-title">Тренажер слепой печати</h4>
+          <h4 className="card-title">Тренажер слепой печати.</h4>
           <p className="card-text">
             Проверь свои навыки! Убедись, что на клавиатуре выбрана русская
             раскладка и приготовься печатать. Тренажер подсчитает твою скорость
