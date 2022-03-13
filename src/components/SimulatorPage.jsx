@@ -1,6 +1,7 @@
 import React from "react";
-import PrintInput from "./PrintInput";
 import Sidebar from "./Sidebar";
+import PrintInput from "./PrintInput";
+
 import SampleText from "./SampleText";
 
 function SimulatorPage(props) {
@@ -10,7 +11,7 @@ function SimulatorPage(props) {
         <Sidebar />
       </div>
       <div className="col-sm-12 col-lg-9 p-3">
-        <div className="row position-relative overflow-hidden">
+        <div className="row g-0 position-relative overflow-hidden">
           <PrintInput />
           <SampleText />
         </div>

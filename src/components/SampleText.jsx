@@ -1,8 +1,8 @@
 import React, { useEffect } from "react";
 import { useSelector, useDispatch } from "react-redux";
 import { textFetch } from "../redux/utils/api";
-import Error from "./Error";
 import Loader from "./Loader";
+import Error from "./Error";
 
 function SampleText(props) {
   const { text, loading, error } = useSelector((state) => state.sample);

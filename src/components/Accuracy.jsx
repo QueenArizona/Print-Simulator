@@ -1,6 +1,5 @@
 import React from "react";
 import { useSelector } from "react-redux";
-import { accuracy } from "../svg";
 
 function Accuracy(props) {
   const { text } = useSelector((state) => state.sample);
@@ -14,7 +13,9 @@ function Accuracy(props) {
 
   return (
     <div className="card-body">
-      <h5 className="card-title">{accuracy} Точность</h5>
+      <h5 className="card-title">
+        <i class="bi bi-emoji-smile"></i> Точность
+      </h5>
       <p className="card-text fs-4 fw-bold text-primary">{formatAccuracy()}</p>
     </div>
   );

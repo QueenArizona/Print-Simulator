@@ -1,5 +1,4 @@
 import React, { useState, useEffect } from "react";
-import { time } from "../svg";
 
 function Time(props) {
   const [seconds, setSeconds] = useState(0);
@@ -23,7 +22,9 @@ function Time(props) {
 
   return (
     <div className="card-body">
-      <h5 className="card-title">{time} Время</h5>
+      <h5 className="card-title">
+        <i class="bi bi-alarm"></i> Время
+      </h5>
       <p className="card-text fs-4 fw-bold text-primary">
         {formatTime(seconds)}
       </p>

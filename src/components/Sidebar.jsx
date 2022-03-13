@@ -1,17 +1,16 @@
 import React from "react";
 import { useDispatch } from "react-redux";
 import { useHistory } from "react-router-dom";
+import { clearSymbolState } from "../redux/print/actions";
 import Speed from "./Speed";
 import Accuracy from "./Accuracy";
 import Time from "./Time";
-import { clearSymbolState } from "../redux/print/actions";
-import { reload } from "../svg";
 
 function Sidebar(props) {
   const dispatch = useDispatch();
   const history = useHistory();
 
-  const handleClick = (event) => {
+  const reload = (event) => {
     event.preventDefault();
     dispatch(clearSymbolState());
     history.push("/");
@@ -19,7 +18,7 @@ function Sidebar(props) {
 
   return (
     <aside className="info">
-      <div className="card text-center">
+      <div className="card border-0 text-center">
         <div className="row g-0">
           <div className="col-sm-4 col-lg-12">
             <Speed />
@@ -31,11 +30,15 @@ function Sidebar(props) {
             <Time />
           </div>
         </div>
-      </div>
-      <div className="row g-0">
-        <button className="btn btn-dark" type="button" onClick={handleClick}>
-          Еще раз {reload}
-        </button>
+        <div className="row g-0">
+          <button
+            className="btn btn-dark rounded-0 rounded-bottom"
+            type="button"
+            onClick={reload}
+          >
+            Еще раз <i class="bi bi-arrow-clockwise"></i>
+          </button>
+        </div>
       </div>
     </aside>
   );

@@ -6,7 +6,7 @@ import ResultPage from "./components/ResultPage";
 function App() {
   return (
     <Router>
-      <div className="container">
+      <div className="container min-vh-100 d-flex justify-content-center align-items-center">
         <Switch>
           <Route path="/simulator" component={SimulatorPage} />
           <Route path="/result" component={ResultPage} />

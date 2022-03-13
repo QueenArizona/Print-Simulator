@@ -1,4 +1,18 @@
+html,
 body {
+  padding: 0;
   margin: 0;
-  background-color: #6f42c1;
+}
+
+*,
+*::after,
+*::before {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #007bb2;
 }

@@ -1,6 +1,5 @@
 import React from "react";
 import { useSelector } from "react-redux";
-import { speed } from "../svg";
 
 function Speed(props) {
   const { index, totalTime } = useSelector((state) => state.print);
@@ -12,7 +11,9 @@ function Speed(props) {
 
   return (
     <div className="card-body">
-      <h5 className="card-title">{speed} Скорость</h5>
+      <h5 className="card-title">
+        <i class="bi bi-stopwatch"></i> Скорость
+      </h5>
       <p className="card-text fs-4 fw-bold text-primary">
         {formatSpeed()} зн/м
       </p>
