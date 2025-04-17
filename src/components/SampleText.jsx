@@ -27,7 +27,7 @@ function SampleText(props) {
         {text.split("").map((el, idx) => (
           <span
             className={`symbol ${
-              idx === index ? "text-white bg-primary" : ""
+              idx === index ? "text-white bg-success" : ""
             } ${idx < index ? "text-muted" : ""}
             ${incorrect && idx === index ? "text-white bg-danger" : ""}`}
             key={idx}

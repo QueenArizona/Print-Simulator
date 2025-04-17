@@ -22,10 +22,10 @@ function Time(props) {
 
   return (
     <div className="card-body">
-      <h5 className="card-title">
+      <h6 className="card-title">
         <i class="bi bi-alarm"></i> Время
-      </h5>
-      <p className="card-text fs-4 fw-bold text-primary">
+      </h6>
+      <p className="card-text fs-4 fw-bold text-success">
         {formatTime(seconds)}
       </p>
     </div>

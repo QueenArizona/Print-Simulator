@@ -13,10 +13,10 @@ function Accuracy(props) {
 
   return (
     <div className="card-body">
-      <h5 className="card-title">
+      <h6 className="card-title">
         <i class="bi bi-emoji-smile"></i> Точность
-      </h5>
-      <p className="card-text fs-4 fw-bold text-primary">{formatAccuracy()}</p>
+      </h6>
+      <p className="card-text fs-4 fw-bold text-success">{formatAccuracy()}</p>
     </div>
   );
 }

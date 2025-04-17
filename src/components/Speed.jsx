@@ -11,10 +11,10 @@ function Speed(props) {
 
   return (
     <div className="card-body">
-      <h5 className="card-title">
+      <h6 className="card-title">
         <i class="bi bi-stopwatch"></i> Скорость
-      </h5>
-      <p className="card-text fs-4 fw-bold text-primary">
+      </h6>
+      <p className="card-text fs-4 fw-bold text-success">
         {formatSpeed()} зн/м
       </p>
     </div>

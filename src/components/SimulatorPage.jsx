@@ -6,7 +6,7 @@ import SampleText from "./SampleText";
 
 function SimulatorPage(props) {
   return (
-    <div className="row align-items-center">
+    <div className="row align-items-center w-100">
       <div className="col-sm-12 col-lg-3 p-3">
         <Sidebar />
       </div>

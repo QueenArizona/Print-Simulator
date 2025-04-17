@@ -15,7 +15,7 @@ function IntroPage(props) {
         <div className="card text-center">
           <div className="card-body">
             <h4 className="card-title">
-              <i class="bi bi-keyboard"></i> Тренажер слепой печати.
+              Тренажер слепой печати.
             </h4>
             <p className="card-text">
               Проверь свои навыки! Убедись, что на клавиатуре выбрана русская
@@ -24,8 +24,7 @@ function IntroPage(props) {
               так, всегда можно попробовать заново.
             </p>
             <div class="d-grid">
-              {" "}
-              <button className="btn btn-primary" type="button" onClick={start}>
+              <button className="btn btn-success" type="button" onClick={start}>
                 Начать печатать
               </button>
             </div>

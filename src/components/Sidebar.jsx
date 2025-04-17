@@ -32,7 +32,7 @@ function Sidebar(props) {
         </div>
         <div className="row g-0">
           <button
-            className="btn btn-dark rounded-0 rounded-bottom"
+            className="btn btn-secondary rounded-0 rounded-bottom"
             type="button"
             onClick={reload}
           >

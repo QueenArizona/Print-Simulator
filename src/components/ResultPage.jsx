@@ -19,20 +19,21 @@ function ResultPage(props) {
   return (
     <div className="row d-flex justify-content-center p-3">
       <div className="card text-center">
-        <img
-          className="card-img-top align-self-center"
-          src={success}
-          alt="success"
-          style={{ width: "5rem" }}
-        />
+        <div className="p-3">
+          <img
+            className="card-img-top align-self-center"
+            src={success}
+            alt="success"
+            style={{ width: "5rem" }}
+          />
+        </div>
         <div className="card-body">
           <h4 className="card-title">Поздравляем!</h4>
           <p className="card-text">
             Отличный результат. Продолжайте тренироваться!
           </p>
           <div class="d-grid">
-            {" "}
-            <button className="btn btn-primary" type="button" onClick={reload}>
+            <button className="btn btn-success" type="button" onClick={reload}>
               Попробовать еще <i class="bi bi-arrow-clockwise"></i>
             </button>
           </div>
