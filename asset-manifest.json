@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/Print-Simulator/static/css/main.6eb1eb75.chunk.css",
-    "main.js": "/Print-Simulator/static/js/main.4e944591.chunk.js",
-    "main.js.map": "/Print-Simulator/static/js/main.4e944591.chunk.js.map",
+    "main.css": "/Print-Simulator/static/css/main.234643a2.chunk.css",
+    "main.js": "/Print-Simulator/static/js/main.42abc678.chunk.js",
+    "main.js.map": "/Print-Simulator/static/js/main.42abc678.chunk.js.map",
     "runtime-main.js": "/Print-Simulator/static/js/runtime-main.e3d92d1b.js",
     "runtime-main.js.map": "/Print-Simulator/static/js/runtime-main.e3d92d1b.js.map",
     "static/js/2.fd0b3b68.chunk.js": "/Print-Simulator/static/js/2.fd0b3b68.chunk.js",
@@ -10,14 +10,14 @@
     "static/js/3.5f057f18.chunk.js": "/Print-Simulator/static/js/3.5f057f18.chunk.js",
     "static/js/3.5f057f18.chunk.js.map": "/Print-Simulator/static/js/3.5f057f18.chunk.js.map",
     "index.html": "/Print-Simulator/index.html",
-    "static/css/main.6eb1eb75.chunk.css.map": "/Print-Simulator/static/css/main.6eb1eb75.chunk.css.map",
+    "static/css/main.234643a2.chunk.css.map": "/Print-Simulator/static/css/main.234643a2.chunk.css.map",
     "static/js/2.fd0b3b68.chunk.js.LICENSE.txt": "/Print-Simulator/static/js/2.fd0b3b68.chunk.js.LICENSE.txt",
     "static/media/success.9836dd2b.svg": "/Print-Simulator/static/media/success.9836dd2b.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.e3d92d1b.js",
     "static/js/2.fd0b3b68.chunk.js",
-    "static/css/main.6eb1eb75.chunk.css",
-    "static/js/main.4e944591.chunk.js"
+    "static/css/main.234643a2.chunk.css",
+    "static/js/main.42abc678.chunk.js"
   ]
 }
